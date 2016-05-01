@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Diagnosztika">
+  <DataContextMoniker Name="/DiagnosztikaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="687e57c5-f635-4e95-8a35-d6a008627b07" absoluteBounds="7, 0.75, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DiagnosztikaDataContext/Berendezesek" />
+      <nestedChildShapes>
+        <elementListCompartment Id="334e9be7-1b06-420c-b494-5ac2792e075f" absoluteBounds="7.0150000000000006, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="03e0237f-7346-47dc-b4a0-5675b9d8a953" absoluteBounds="3.625, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DiagnosztikaDataContext/Fajltarolo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b35a8466-7779-45b9-9468-c1f651e46bee" absoluteBounds="3.6399999999999997, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f4058a80-b66b-4eb9-9ae4-3147f78e4732" absoluteBounds="3.375, 4.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DiagnosztikaDataContext/Kemhata" />
+      <nestedChildShapes>
+        <elementListCompartment Id="67ae3d4d-585d-46a1-8124-35f007de64ca" absoluteBounds="3.3899999999999997, 4.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.71875 : 1.94399251302083); (8.71875 : 6.42714680989583); (5.375 : 6.42714680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DiagnosztikaDataContext/Berendezesek/Berendezesek_Kemhata" />
+      <nodes>
+        <classShapeMoniker Id="687e57c5-f635-4e95-8a35-d6a008627b07" />
+        <classShapeMoniker Id="f4058a80-b66b-4eb9-9ae4-3147f78e4732" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="504d59b4-3ff2-4253-bf99-562f17ef188a" absoluteBounds="6.375, 2.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DiagnosztikaDataContext/Mikor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dfe433ec-8814-4a24-ab77-0437bbc35902" absoluteBounds="6.39, 3.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.375 : 3.41429768880208); (4.375 : 3.41429768880208); (4.375 : 4.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DiagnosztikaDataContext/Mikor/Mikor_Kemhata" />
+      <nodes>
+        <classShapeMoniker Id="504d59b4-3ff2-4253-bf99-562f17ef188a" />
+        <classShapeMoniker Id="f4058a80-b66b-4eb9-9ae4-3147f78e4732" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6e2c206e-40d3-4a73-89b0-5ed0a37349b6" absoluteBounds="6.375, 4.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DiagnosztikaDataContext/Szemelyek" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14376e35-9751-4e8b-a376-19b362d2246c" absoluteBounds="6.3900000000000006, 5.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.375 : 4.75); (7.375 : 4.20359537760417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DiagnosztikaDataContext/Szemelyek/Szemelyek_Mikor" />
+      <nodes>
+        <classShapeMoniker Id="6e2c206e-40d3-4a73-89b0-5ed0a37349b6" />
+        <classShapeMoniker Id="504d59b4-3ff2-4253-bf99-562f17ef188a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7d2be364-d5b8-4395-9700-4e3be352916b" absoluteBounds="0.5, 3.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DiagnosztikaDataContext/Tipus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="065ec7f7-8d82-47a9-a278-2d96c072b4a3" absoluteBounds="0.51500000000000012, 4.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 4.75564697265625); (3.375 : 4.75564697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DiagnosztikaDataContext/Tipus/Tipus_Kemhata" />
+      <nodes>
+        <classShapeMoniker Id="7d2be364-d5b8-4395-9700-4e3be352916b" />
+        <classShapeMoniker Id="f4058a80-b66b-4eb9-9ae4-3147f78e4732" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="62a31b45-725b-4fb8-94e3-2bebf59a3062" absoluteBounds="0.5, 0.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DiagnosztikaDataContext/Vezetokepesseg" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c8c61c41-4c88-4c00-8e46-8317f058a38c" absoluteBounds="0.51500000000000012, 1.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7 : 1.85024251302083); (2.5 : 1.85024251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DiagnosztikaDataContext/Berendezesek/Berendezesek_Vezetokepesseg" />
+      <nodes>
+        <classShapeMoniker Id="687e57c5-f635-4e95-8a35-d6a008627b07" />
+        <classShapeMoniker Id="62a31b45-725b-4fb8-94e3-2bebf59a3062" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.65625 : 2.625); (6.65625 : 2.31574575651042); (2.5 : 2.31574575651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DiagnosztikaDataContext/Mikor/Mikor_Vezetokepesseg" />
+      <nodes>
+        <classShapeMoniker Id="504d59b4-3ff2-4253-bf99-562f17ef188a" />
+        <classShapeMoniker Id="62a31b45-725b-4fb8-94e3-2bebf59a3062" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.5 : 3.625); (1.5 : 2.78049967447917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DiagnosztikaDataContext/Tipus/Tipus_Vezetokepesseg" />
+      <nodes>
+        <classShapeMoniker Id="7d2be364-d5b8-4395-9700-4e3be352916b" />
+        <classShapeMoniker Id="62a31b45-725b-4fb8-94e3-2bebf59a3062" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

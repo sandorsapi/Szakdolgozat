@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HQ40d_Diagnosztika.exe" version="1.0.0.0" publicKeyToken="20b768a7caa0dd47" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HQ40d_Diagnosztika" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="HQ40d_Diagnosztika.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HQ40d_Diagnosztika.exe" size="113664">
+      <assemblyIdentity name="HQ40d_Diagnosztika" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>iLvn4vOJfCdu3eMcHRhabzigXuU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="HQ40d_Diagnosztika.exe.config" size="423">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qvH/EAt0JoCeKyEGOidsZJMpsAo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Muszer.ico" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EEs4mhLK4YXN9uw15JV6Q9kj308=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Muszer_16.ico" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Z6qfXk8TE1ogzrcZw48+OUo28xs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SASA-Laptop-PC\SASA-Laptop" issuerKeyHash="6b2e5523afa72f32e46e3357172a3ddedb9119c5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>tvLepkISPtgdPnybh/w4Nw5bBPk=</DigestValue></Reference></SignedInfo><SignatureValue>WR+aWItjOFAd0Kcr7oYlyLWssq/4tZlhxuzy98WOu5vFPI9aUdqmJdjG4wDKrua74KaLYRX0NaPefkhZVO+ZpcOfOkYv53/GRzl6K49Z+HOpg6+9anwk0c6tb4kt6EZzEe1LE4Nh4r9LmfzokKqRai0quiOupWGw0Q2JVzJpujQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>r2wEEy/rfY5zHYx9reDY4wTFXc8XJCzwmJPPPR0TNVXOLnEhaVsv+q/TR25M1Cv7Wy3UpDJDmpmd0XwQqtZoyuUa9UEzwO2aLze4YyAeMXDe996EXglEsW+rzPJDN8Urs5J6mdQlqsevgeIDiyP/KFlU7Zw7/rrth4rDtdgtFNs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f9045b0e3738fc879b7c3e1dd83e1242a6def2b6" Description="" Url=""><as:assemblyIdentity name="HQ40d_Diagnosztika.exe" version="1.0.0.0" publicKeyToken="20b768a7caa0dd47" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SASA-Laptop-PC\SASA-Laptop</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>2Gw0VvbipOaauufKfJx9mOVXY50=</DigestValue></Reference></SignedInfo><SignatureValue>rShSYBIXKuHDkvAq3iWDtcTM99R8AagYAOpaXZwZW1bK99VMvDYZmMv/iuW6MM13GNrf+iJtIzLln42a+f0h6mxYGIoSNkPXB2KRocPezphE8gM1pRi1DeP85jQMj4e+pNU/oimmvBZ8IzKaxU7y6To63h6EFUCi5LNA2yOFaC0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>r2wEEy/rfY5zHYx9reDY4wTFXc8XJCzwmJPPPR0TNVXOLnEhaVsv+q/TR25M1Cv7Wy3UpDJDmpmd0XwQqtZoyuUa9UEzwO2aLze4YyAeMXDe996EXglEsW+rzPJDN8Urs5J6mdQlqsevgeIDiyP/KFlU7Zw7/rrth4rDtdgtFNs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQK4FaBTnOaJJB4dwISn7hBTANBgkqhkiG9w0BAQUFADA/MT0wOwYDVQQDHjQAUwBBAFMAQQAtAEwAYQBwAHQAbwBwAC0AUABDAFwAUwBBAFMAQQAtAEwAYQBwAHQAbwBwMB4XDTE1MDIwODA3MzYyMloXDTE2MDIwODEzMzYyMlowPzE9MDsGA1UEAx40AFMAQQBTAEEALQBMAGEAcAB0AG8AcAAtAFAAQwBcAFMAQQBTAEEALQBMAGEAcAB0AG8AcDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAr2wEEy/rfY5zHYx9reDY4wTFXc8XJCzwmJPPPR0TNVXOLnEhaVsv+q/TR25M1Cv7Wy3UpDJDmpmd0XwQqtZoyuUa9UEzwO2aLze4YyAeMXDe996EXglEsW+rzPJDN8Urs5J6mdQlqsevgeIDiyP/KFlU7Zw7/rrth4rDtdgtFNsCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBPM2YfkbG8DKIp3uIil9yJzT97RLCW4S1LqWLF8j3Rf+Xe56j2R27FdFhBZvwEIPf7CocFVpxlcL/lnEbDJsTFyqz54eU1dUJLrPW36GF6EROvdtIZXMsJdRFhMd+U5FdTpg0hgliQGkzsckJTMWs3e1JQhGu9s24i+eyAHlpkEg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F3A8E11D-AC72-4B93-B8B3-70BFEC44EF4B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HQ40d_Diagnosztika</RootNamespace>
+    <AssemblyName>HQ40d_Diagnosztika</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B69BCD29CFB2A3DD242A76A6955615871C0DCC4E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>HQ40d_Diagnosztika_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adat\AdatKezelo.cs" />
+    <Compile Include="Form\FormHT1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHT1.Designer.cs">
+      <DependentUpon>FormHT1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormDuo10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormDuo10.Designer.cs">
+      <DependentUpon>FormDuo10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormKemhatas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormKemhatas.Designer.cs">
+      <DependentUpon>FormKemhatas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormNyersviz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormNyersviz.Designer.cs">
+      <DependentUpon>FormNyersviz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHutesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHutesi.Designer.cs">
+      <DependentUpon>FormHutesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormKondenz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormKondenz.Designer.cs">
+      <DependentUpon>FormKondenz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormPotviz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormPotviz.Designer.cs">
+      <DependentUpon>FormPotviz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHT10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHT10.Designer.cs">
+      <DependentUpon>FormHT10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHT9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHT9.Designer.cs">
+      <DependentUpon>FormHT9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHT8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHT8.Designer.cs">
+      <DependentUpon>FormHT8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHT7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHT7.Designer.cs">
+      <DependentUpon>FormHT7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHT6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHT6.Designer.cs">
+      <DependentUpon>FormHT6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHT5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHT5.Designer.cs">
+      <DependentUpon>FormHT5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHT4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHT4.Designer.cs">
+      <DependentUpon>FormHT4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHT3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHT3.Designer.cs">
+      <DependentUpon>FormHT3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormHT2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHT2.Designer.cs">
+      <DependentUpon>FormHT2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diagnosztika.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Diagnosztika.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="File\FileKezelo.cs" />
+    <Compile Include="Form\FormAlap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormAlap.Designer.cs">
+      <DependentUpon>FormAlap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormBerendezesek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormBerendezesek.Designer.cs">
+      <DependentUpon>FormBerendezesek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormDatum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormDatum.Designer.cs">
+      <DependentUpon>FormDatum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormFajlok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormFajlok.Designer.cs">
+      <DependentUpon>FormFajlok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormSzemelyek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormSzemelyek.Designer.cs">
+      <DependentUpon>FormSzemelyek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormSzerzo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormSzerzo.Designer.cs">
+      <DependentUpon>FormSzerzo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormTipus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormTipus.Designer.cs">
+      <DependentUpon>FormTipus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormUtmutato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormUtmutato.Designer.cs">
+      <DependentUpon>FormUtmutato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormVezetokepesseg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormVezetokepesseg.Designer.cs">
+      <DependentUpon>FormVezetokepesseg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grafika\Grafika.cs" />
+    <Compile Include="Koordinata\Koordinata.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="app.config" />
+    <None Include="Diagnosztika.dbml.layout">
+      <DependentUpon>Diagnosztika.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Form\FormHT1.resx">
+      <DependentUpon>FormHT1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormDuo10.resx">
+      <DependentUpon>FormDuo10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormKemhatas.resx">
+      <DependentUpon>FormKemhatas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormNyersviz.resx">
+      <DependentUpon>FormNyersviz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHutesi.resx">
+      <DependentUpon>FormHutesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormKondenz.resx">
+      <DependentUpon>FormKondenz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormPotviz.resx">
+      <DependentUpon>FormPotviz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHT10.resx">
+      <DependentUpon>FormHT10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHT9.resx">
+      <DependentUpon>FormHT9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHT8.resx">
+      <DependentUpon>FormHT8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHT7.resx">
+      <DependentUpon>FormHT7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHT6.resx">
+      <DependentUpon>FormHT6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHT5.resx">
+      <DependentUpon>FormHT5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHT4.resx">
+      <DependentUpon>FormHT4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHT3.resx">
+      <DependentUpon>FormHT3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormHT2.resx">
+      <DependentUpon>FormHT2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormAlap.resx">
+      <DependentUpon>FormAlap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormBerendezesek.resx">
+      <DependentUpon>FormBerendezesek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormDatum.resx">
+      <DependentUpon>FormDatum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormFajlok.resx">
+      <DependentUpon>FormFajlok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormSzemelyek.resx">
+      <DependentUpon>FormSzemelyek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormSzerzo.resx">
+      <DependentUpon>FormSzerzo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormTipus.resx">
+      <DependentUpon>FormTipus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormUtmutato.resx">
+      <DependentUpon>FormUtmutato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormVezetokepesseg.resx">
+      <DependentUpon>FormVezetokepesseg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Diagnosztika.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Diagnosztika.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OsztalyDiagram.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Muszer.ico" />
+    <Content Include="Resources\Muszer_16.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

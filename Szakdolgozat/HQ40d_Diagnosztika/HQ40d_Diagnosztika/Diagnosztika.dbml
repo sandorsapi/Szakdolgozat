@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Diagnosztika" Class="DiagnosztikaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=Diagnosztika;Integrated Security=True" SettingsObjectName="HQ40d_Diagnosztika.Properties.Settings" SettingsPropertyName="DiagnosztikaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Berendezesek" Member="Berendezeseks">
+    <Type Name="Berendezesek">
+      <Column Name="berendezesID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="berendezes_nev" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="Berendezesek_Kemhata" Member="Kemhatas" ThisKey="berendezesID" OtherKey="berendezes_azonosito" Type="Kemhata" />
+      <Association Name="Berendezesek_Vezetokepesseg" Member="Vezetokepessegs" ThisKey="berendezesID" OtherKey="berendezes_azonosito" Type="Vezetokepesseg" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Fajltarolo" Member="Fajltarolos">
+    <Type Name="Fajltarolo">
+      <Column Name="fajlID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fajlnev" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Kemhatas" Member="Kemhatas">
+    <Type Name="Kemhata">
+      <Column Name="phID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="kemhatas" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="hofok" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="tipus" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mikor" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="meres_kod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="berendezes_azonosito" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Berendezesek_Kemhata" Member="Berendezesek" ThisKey="berendezes_azonosito" OtherKey="berendezesID" Type="Berendezesek" IsForeignKey="true" />
+      <Association Name="Mikor_Kemhata" Member="Mikor1" ThisKey="mikor" OtherKey="datumID" Type="Mikor" IsForeignKey="true" />
+      <Association Name="Tipus_Kemhata" Member="Tipus1" ThisKey="tipus" OtherKey="typeID" Type="Tipus" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Mikor" Member="Mikors">
+    <Type Name="Mikor">
+      <Column Name="datumID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="datum" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ido" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="szemely" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Mikor_Kemhata" Member="Kemhatas" ThisKey="datumID" OtherKey="mikor" Type="Kemhata" />
+      <Association Name="Mikor_Vezetokepesseg" Member="Vezetokepessegs" ThisKey="datumID" OtherKey="mikor" Type="Vezetokepesseg" />
+      <Association Name="Szemelyek_Mikor" Member="Szemelyek" ThisKey="szemely" OtherKey="szemelyID" Type="Szemelyek" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Szemelyek" Member="Szemelyeks">
+    <Type Name="Szemelyek">
+      <Column Name="szemelyID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nev" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="beosztas" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Szemelyek_Mikor" Member="Mikors" ThisKey="szemelyID" OtherKey="szemely" Type="Mikor" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tipus" Member="Tipus">
+    <Type Name="Tipus">
+      <Column Name="typeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tipus" Member="tipus1" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="azonosito" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Association Name="Tipus_Kemhata" Member="Kemhatas" ThisKey="typeID" OtherKey="tipus" Type="Kemhata" />
+      <Association Name="Tipus_Vezetokepesseg" Member="Vezetokepessegs" ThisKey="typeID" OtherKey="tipus" Type="Vezetokepesseg" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vezetokepesseg" Member="Vezetokepessegs">
+    <Type Name="Vezetokepesseg">
+      <Column Name="vezID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="vezetokepesseg" Member="vezetokepesseg1" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="hofok" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="tipus" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mikor" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="meres_kod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="berendezes_azonosito" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Berendezesek_Vezetokepesseg" Member="Berendezesek" ThisKey="berendezes_azonosito" OtherKey="berendezesID" Type="Berendezesek" IsForeignKey="true" />
+      <Association Name="Mikor_Vezetokepesseg" Member="Mikor1" ThisKey="mikor" OtherKey="datumID" Type="Mikor" IsForeignKey="true" />
+      <Association Name="Tipus_Vezetokepesseg" Member="Tipus1" ThisKey="tipus" OtherKey="typeID" Type="Tipus" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

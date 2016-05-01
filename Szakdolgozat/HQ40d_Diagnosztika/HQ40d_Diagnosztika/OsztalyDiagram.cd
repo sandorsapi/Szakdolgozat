@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HQ40d_Diagnosztika.AdatKezelo" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WAmQ4AAwYqERIJDGUcAHIA2AAgEJQRUBQALImQUEEBk=</HashCode>
+      <FileName>Adat\AdatKezelo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FileKezelo" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAACAFAAAAAAAAACAAAACAAQAQkAAAAABAiA=</HashCode>
+      <FileName>File\FileKezelo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.Grafika" Collapsed="true">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GkDpet/JhLg/Qv9oESgLoAVzAAiJGJHB7Z4fMzFCfNE=</HashCode>
+      <FileName>Grafika\Grafika.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.Koordinata" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SBLQEcRooACiBQAAUEgHAJgDIAZQAgIIYwNIEIEBAAA=</HashCode>
+      <FileName>Koordinata\Koordinata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.DiagnosztikaDataContext" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgCIgIEoAABIAAAAEAAAAACBCAIQAAAEgiIAgACYDA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.Berendezesek" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgIAIFAAAAIAAAYAkAQAaBiCQAAAAAAIACAAAAIQA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.Fajltarolo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABAIAACABAQAEBAAABjCAAQAAgAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.Kemhata" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QhFkIAWhEASEIAAAQMEBAAgBiCAGAAAAAgGJBABBACA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.Mikor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgABIFAAgAIAAgRAEBAAqBiCQAAAQgAhCCBAYAIwA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.Szemelyek" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAgoAABAAAkAAAAQAUgAAABmKACAAEAAAAABAAACCA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.Tipus" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAIFAQAgIgABQAEAQAKBiDQCAAAAAMAAIAAAIQA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.Vezetokepesseg" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAEoIASBEACEJAAAQMEBAAhBiGIGBAAAAgCJBABBBCA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormAlap" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/xWvnM5S4CBaXjEEgQaJCVJDMF5uCqXKUPUX+aFpxTU=</HashCode>
+      <FileName>Form\FormAlap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormVezetokepesseg" Collapsed="true">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAACACAAAAAAAACAAAACAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Form\FormVezetokepesseg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormUtmutato" Collapsed="true">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAACACAAQAAAAACAAAACAAAAAAAAAAAQQAABBAA=</HashCode>
+      <FileName>Form\FormUtmutato.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormTipus" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgACACAAAAAAAACAAAACAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Form\FormTipus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormSzerzo" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACAAABAAAACAAAACAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Form\FormSzerzo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormSzemelyek" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAKAAAAAAAACAAAACAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Form\FormSzemelyek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormPotviz" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEACgCAAAAAAAQSAgAACAAAACAACAAAAQQAAQBA=</HashCode>
+      <FileName>Form\FormPotviz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormNyersviz" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEECgCAAAAAAAQSAAAACAAAACAACAAAAQAAAQBA=</HashCode>
+      <FileName>Form\FormNyersviz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormKondenz" Collapsed="true">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEACgCAAAAAAAQSAAAACAQAACAECAAAAQAAAQBA=</HashCode>
+      <FileName>Form\FormKondenz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormKemhatas" Collapsed="true">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACAAAAAAAACAAAACAAAAAAAAAAAgQAAAAAA=</HashCode>
+      <FileName>Form\FormKemhatas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormHutesi" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEACgCAAAAAAQQSAAAACAAAACAACAAAAQAgAQBA=</HashCode>
+      <FileName>Form\FormHutesi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormHT9" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAEACgCAAAAAAAQSAAAACAAAgCAACAAAAQAAAQBA=</HashCode>
+      <FileName>Form\FormHT9.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormHT8" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAEACgCAAAAAAAQSAAAACAAAgCAACAAAAQAAAQBA=</HashCode>
+      <FileName>Form\FormHT8.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormHT7" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAEACgCAAAAAAAQSAAAACAAAgCAACAAAAQAAAQBA=</HashCode>
+      <FileName>Form\FormHT7.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormHT6" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAEACgCAAAAAAAQSAAAACAAAgCAACAAAAQAAAQBA=</HashCode>
+      <FileName>Form\FormHT6.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormHT5" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAEACgCAAAAAAAQSAAAACAAAgCAACAAAAQAAAQBA=</HashCode>
+      <FileName>Form\FormHT5.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormHT4" Collapsed="true">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAEACgCAAAAAAAQSAAAACAAAgCAACAAAAQAAAQBA=</HashCode>
+      <FileName>Form\FormHT4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormHT3" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAEACgCAAAAAAAQSAAAACAAAgCAACAAAAQAAAQBA=</HashCode>
+      <FileName>Form\FormHT3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormHT2" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAEACgCAAAAAAAQSAAAACAAAgCAACAAAAQAAAQBA=</HashCode>
+      <FileName>Form\FormHT2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormHT10" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEACiCAAAAAAAQSAAAACAAAACAACAAAAQAAAQBA=</HashCode>
+      <FileName>Form\FormHT10.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormHT1" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAEACgCAAAAAAAQSAAAACAAAgCAACAAAAQAAAQBA=</HashCode>
+      <FileName>Form\FormHT1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormFajlok" Collapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACACAAAAAAAACAAAACAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Form\FormFajlok.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormDuo10" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEACgCAAAAAAAQSAAAACABAACAACAgAAQAAAQBA=</HashCode>
+      <FileName>Form\FormDuo10.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormDatum" Collapsed="true">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACgCAAAAAAAACAAAACAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Form\FormDatum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HQ40d_Diagnosztika.FormBerendezesek" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACACIBABAAAACAgAACAAAAAAAAAAAASAAAAAA=</HashCode>
+      <FileName>Form\FormBerendezesek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

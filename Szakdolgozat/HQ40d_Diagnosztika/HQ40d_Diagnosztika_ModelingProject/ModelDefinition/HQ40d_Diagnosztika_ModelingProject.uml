@@ -1,0 +1,1661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="6519ee36-d4fa-4a82-90cc-a4e30ed04f0c"
+  name="HQ40d_Diagnosztika_ModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction
+        Id="97d06a51-3c14-4ebe-a98f-0fead8b96582"
+        name="Sequence"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="ec8d099b-4876-4e00-bae8-cd754ee0ecfb"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+                LastKnownName="Grafika : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="530b0820-3b28-413e-929b-5e06c3a5629a"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="e014135a-9226-4709-ab6e-a78c272fbd05"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="772f0349-bd19-4146-a72e-ae1e7b96e582"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="2226ac8a-4845-4621-be3c-9a81c6dabc29"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="e014135a-9226-4709-ab6e-a78c272fbd05"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="aa0d0f0d-1462-479d-a705-172de3131d4d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+                LastKnownName="Grafika : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="41cd92ff-bfe5-415a-b731-935026ecd95b"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="50643715-7000-4a40-ad7f-6ca3d7fa3c23"
+                LastKnownName="FormAlap : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="772f0349-bd19-4146-a72e-ae1e7b96e582"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+                LastKnownName="Grafika : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="9b7aaf4c-f2d5-4117-b405-ed01d0a75a8b"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="61425ad4-3e7b-4875-9b7c-7e12bebadb13"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7671fbd8-e09a-4a8e-8610-d8197947594d"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="261718d3-302b-4c21-aae9-cbb018db401d"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="884336c1-e3df-463b-a24d-5a8979332c22"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7671fbd8-e09a-4a8e-8610-d8197947594d"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8cffda8c-32fc-4641-a959-773fc0705b9d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ce8449c6-5e07-4edf-b7a4-8cf266117468"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="b9091771-c108-422b-bbae-69176c8daae6"
+                LastKnownName="FileKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="261718d3-302b-4c21-aae9-cbb018db401d"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b737beea-4cc5-439d-805a-cfd725ff2303"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="50643715-7000-4a40-ad7f-6ca3d7fa3c23"
+                LastKnownName="FormAlap : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2226ac8a-4845-4621-be3c-9a81c6dabc29"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+                LastKnownName="Grafika : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="530b0820-3b28-413e-929b-5e06c3a5629a"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d8dc38bf-a401-4fa3-bd42-d6a436e7135f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+                LastKnownName="Grafika : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="884336c1-e3df-463b-a24d-5a8979332c22"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5d6c0495-957c-402e-93fa-d635a5d1e9c8"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="b9091771-c108-422b-bbae-69176c8daae6"
+                LastKnownName="FileKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="61425ad4-3e7b-4875-9b7c-7e12bebadb13"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9acfab6b-e10b-4c43-803d-33ed37ff48d5"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="eef84406-74e6-419d-9fd5-b074615f50b7"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="b9091771-c108-422b-bbae-69176c8daae6"
+                LastKnownName="FileKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="84b81726-29bb-4661-be4e-773d2cc11061"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="836dbf39-8648-4362-9470-d4ce40829a9e"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="a98f5121-66a1-4b7e-b8af-1b16b737effb"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c9024a1b-c3ca-4acd-8db6-64e25437bbad"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="836dbf39-8648-4362-9470-d4ce40829a9e"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8e3972a2-8180-4945-ad3c-b98ef40ebf87"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b9091771-c108-422b-bbae-69176c8daae6"
+                LastKnownName="FileKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a98f5121-66a1-4b7e-b8af-1b16b737effb"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="b9091771-c108-422b-bbae-69176c8daae6"
+                LastKnownName="FileKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c126a5fc-dd8a-4aac-a4b8-5c10517a3907"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="50643715-7000-4a40-ad7f-6ca3d7fa3c23"
+                LastKnownName="FormAlap : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c9024a1b-c3ca-4acd-8db6-64e25437bbad"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="b9091771-c108-422b-bbae-69176c8daae6"
+                LastKnownName="FileKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5208c152-e82e-4632-93c2-7da40af7fa33"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="50643715-7000-4a40-ad7f-6ca3d7fa3c23"
+                LastKnownName="FormAlap : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="84b81726-29bb-4661-be4e-773d2cc11061"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fb169c1e-7a39-49e5-95b6-bc65ec28c417"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b9091771-c108-422b-bbae-69176c8daae6"
+                LastKnownName="FileKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="53e73683-4693-4d1a-b44b-c3fba3d79ac9"
+            name="BehaviorExecutionSpecification9">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+                LastKnownName="Grafika : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="a4888d10-5671-4744-bcaa-1ea9579201d0"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="6c246664-c2d1-472f-b9d5-c0d7391870c9"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f06b0d60-07b2-40aa-99fa-cd4a68d3cbab"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="152cf60f-f762-4d22-807e-1feb63cb11ac"
+                LastKnownName="MessageOccurrenceSpecification35"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="6c246664-c2d1-472f-b9d5-c0d7391870c9"
+            name="ExecutionOccurrenceSpecification17">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="be8db178-e936-42b9-b296-8d7f20e8e80b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+                LastKnownName="Grafika : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e879cce7-9dbc-40ca-9202-709790ae5096"
+            name="MessageOccurrenceSpecification33">
+            <covered>
+              <lifelineMoniker
+                Id="50643715-7000-4a40-ad7f-6ca3d7fa3c23"
+                LastKnownName="FormAlap : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f06b0d60-07b2-40aa-99fa-cd4a68d3cbab"
+            name="MessageOccurrenceSpecification34">
+            <covered>
+              <lifelineMoniker
+                Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+                LastKnownName="Grafika : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="008b3325-ebb7-4521-9579-18b10c9b2e18"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="e9a6b1a4-4057-4d85-8925-2e710ea7480a"
+                LastKnownName="Diagnosztika.designer : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="9ce04b92-4d72-4a81-a3ba-1592fd91d7f7"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="ccb77bf5-c645-47e7-b731-0e1b0e02fea6"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="3055c928-e67c-4585-a9c6-4b3b703ad001"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="aba568c7-69ff-4b69-9fd7-e4f64e583816"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="ccb77bf5-c645-47e7-b731-0e1b0e02fea6"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="87a0afb8-e20a-4704-8632-e39b78405d73"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="e9a6b1a4-4057-4d85-8925-2e710ea7480a"
+                LastKnownName="Diagnosztika.designer : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3055c928-e67c-4585-a9c6-4b3b703ad001"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="e9a6b1a4-4057-4d85-8925-2e710ea7480a"
+                LastKnownName="Diagnosztika.designer : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="562094da-a89a-437c-ba8b-2b14c6f59335"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6afdd7b9-3441-4a76-b670-6df5e298f863"
+            name="MessageOccurrenceSpecification36">
+            <covered>
+              <lifelineMoniker
+                Id="50643715-7000-4a40-ad7f-6ca3d7fa3c23"
+                LastKnownName="FormAlap : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="152cf60f-f762-4d22-807e-1feb63cb11ac"
+            name="MessageOccurrenceSpecification35">
+            <covered>
+              <lifelineMoniker
+                Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+                LastKnownName="Grafika : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="a4888d10-5671-4744-bcaa-1ea9579201d0"
+            name="ExecutionOccurrenceSpecification18">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a7fcae79-ee65-4e24-8e99-34ef3356f147"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+                LastKnownName="Grafika : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="a73b25b9-dac7-48af-a9c2-2f9b241a3507"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="cd29121e-2f8a-4a54-a088-2b2a0338097a"
+                LastKnownName="Koordináta : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="42c759cd-7ab8-440d-872d-d403bb770b6c"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="4a7c238e-3edd-43d3-abed-bb12c1f80360"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f6d8dff3-687f-4a9a-9dbf-12992aef771f"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ed6a6791-3c87-4ed3-8422-36ba81afc26d"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="4a7c238e-3edd-43d3-abed-bb12c1f80360"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="6f8dba25-c66b-4bb6-9a1f-185562f4b623"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="cd29121e-2f8a-4a54-a088-2b2a0338097a"
+                LastKnownName="Koordináta : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f6d8dff3-687f-4a9a-9dbf-12992aef771f"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="cd29121e-2f8a-4a54-a088-2b2a0338097a"
+                LastKnownName="Koordináta : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8b46f163-2738-4258-bc17-161186cc3b01"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+                LastKnownName="Grafika : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="aba568c7-69ff-4b69-9fd7-e4f64e583816"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="e9a6b1a4-4057-4d85-8925-2e710ea7480a"
+                LastKnownName="Diagnosztika.designer : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="490c4361-3c15-478f-ae7f-a290102b8dde"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="9ce04b92-4d72-4a81-a3ba-1592fd91d7f7"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5ddf554a-1084-45cf-ba7d-9d9a18295d52"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="e9a6b1a4-4057-4d85-8925-2e710ea7480a"
+                LastKnownName="Diagnosztika.designer : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="97cfaf7c-f0a1-4fc7-9cdd-755e502f01d5"
+            name="BehaviorExecutionSpecification10">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="1203246f-aca9-4eb4-8e72-2d24f589e59a"
+                LastKnownName="Berendezés Formok (1-15) : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="a331a92c-823b-4da8-afe3-853f4ef8ba2b"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="4404c197-8ac6-4d73-9cfc-d788a75d3cdf"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="d651248c-a0c4-4991-9835-67c40c7403b1"
+                LastKnownName="MessageOccurrenceSpecification38"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="bb8fd246-2d02-4434-8613-e9f29b9af0af"
+                LastKnownName="MessageOccurrenceSpecification39"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="4404c197-8ac6-4d73-9cfc-d788a75d3cdf"
+            name="ExecutionOccurrenceSpecification19">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1b1a678e-4aaf-4d54-ba04-a9e25083b557"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1203246f-aca9-4eb4-8e72-2d24f589e59a"
+                LastKnownName="Berendezés Formok (1-15) : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="720ba889-94d4-4e68-bf66-3cdd35bf6e06"
+            name="MessageOccurrenceSpecification37">
+            <covered>
+              <lifelineMoniker
+                Id="50643715-7000-4a40-ad7f-6ca3d7fa3c23"
+                LastKnownName="FormAlap : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d651248c-a0c4-4991-9835-67c40c7403b1"
+            name="MessageOccurrenceSpecification38">
+            <covered>
+              <lifelineMoniker
+                Id="1203246f-aca9-4eb4-8e72-2d24f589e59a"
+                LastKnownName="Berendezés Formok (1-15) : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="25e21410-e808-403d-b166-ed21536c4350"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+                LastKnownName="Grafika : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ed6a6791-3c87-4ed3-8422-36ba81afc26d"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="cd29121e-2f8a-4a54-a088-2b2a0338097a"
+                LastKnownName="Koordináta : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="42c759cd-7ab8-440d-872d-d403bb770b6c"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c5a2288d-a29a-483c-aa95-64ec7bc64afc"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="cd29121e-2f8a-4a54-a088-2b2a0338097a"
+                LastKnownName="Koordináta : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bb8fd246-2d02-4434-8613-e9f29b9af0af"
+            name="MessageOccurrenceSpecification39">
+            <covered>
+              <lifelineMoniker
+                Id="1203246f-aca9-4eb4-8e72-2d24f589e59a"
+                LastKnownName="Berendezés Formok (1-15) : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="15ee1d8e-aa77-4361-9a6c-f224e221c7c3"
+            name="MessageOccurrenceSpecification40">
+            <covered>
+              <lifelineMoniker
+                Id="50643715-7000-4a40-ad7f-6ca3d7fa3c23"
+                LastKnownName="FormAlap : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="a331a92c-823b-4da8-afe3-853f4ef8ba2b"
+            name="ExecutionOccurrenceSpecification20">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9c7b7799-526b-417f-b7bb-30a260a47399"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1203246f-aca9-4eb4-8e72-2d24f589e59a"
+                LastKnownName="Berendezés Formok (1-15) : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="de273c6e-ccc3-42b7-bece-a0df0fa1c749"
+            name="BehaviorExecutionSpecification11">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="73d3c323-29c9-42dd-8f71-b7a72036def2"
+                LastKnownName="ExecutionOccurrenceSpecification22"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="04c46209-0c26-44c4-ba64-becda9c8e58e"
+                LastKnownName="ExecutionOccurrenceSpecification21"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="499295cf-3d0c-4909-a935-4bd97ac2a2f2"
+                LastKnownName="MessageOccurrenceSpecification42"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="658d6f7b-601c-422e-a03a-7be6aa3aad72"
+                LastKnownName="MessageOccurrenceSpecification43"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="04c46209-0c26-44c4-ba64-becda9c8e58e"
+            name="ExecutionOccurrenceSpecification21">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ba8b9ab4-ee20-45b9-8226-fd83c422d8d0"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="499295cf-3d0c-4909-a935-4bd97ac2a2f2"
+            name="MessageOccurrenceSpecification42">
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="67cab350-d35c-4ce3-996c-61b53b4b8413"
+            name="MessageOccurrenceSpecification41">
+            <covered>
+              <lifelineMoniker
+                Id="1203246f-aca9-4eb4-8e72-2d24f589e59a"
+                LastKnownName="Berendezés Formok (1-15) : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="658d6f7b-601c-422e-a03a-7be6aa3aad72"
+            name="MessageOccurrenceSpecification43">
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a4f99d14-5e5e-467d-a13a-405553a25143"
+            name="MessageOccurrenceSpecification44">
+            <covered>
+              <lifelineMoniker
+                Id="1203246f-aca9-4eb4-8e72-2d24f589e59a"
+                LastKnownName="Berendezés Formok (1-15) : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="73d3c323-29c9-42dd-8f71-b7a72036def2"
+            name="ExecutionOccurrenceSpecification22">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="383d0286-3d30-4e5e-8035-e78155c72acf"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="01b93483-812d-4d4e-a743-4e51f489a6ac"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="40924f8c-e981-45af-abb0-9debc0c0835b"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="4639bf14-77f5-49f7-99aa-28b1beffa2de"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b8d2c47c-d252-4df6-ab56-c10bb90da80a"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8f351c27-9a6f-4514-8754-ef4e91ad3add"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="4639bf14-77f5-49f7-99aa-28b1beffa2de"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="658d0f70-7499-40f1-a908-f0fa125f58e6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b8d2c47c-d252-4df6-ab56-c10bb90da80a"
+            name="MessageOccurrenceSpecification30">
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f4c0ac83-caf0-4283-a253-edeee11b9c37"
+            name="MessageOccurrenceSpecification29">
+            <covered>
+              <lifelineMoniker
+                Id="50643715-7000-4a40-ad7f-6ca3d7fa3c23"
+                LastKnownName="FormAlap : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cc57995d-2e8e-4dbe-a745-bff8d86e28c9"
+            name="MessageOccurrenceSpecification32">
+            <covered>
+              <lifelineMoniker
+                Id="50643715-7000-4a40-ad7f-6ca3d7fa3c23"
+                LastKnownName="FormAlap : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8f351c27-9a6f-4514-8754-ef4e91ad3add"
+            name="MessageOccurrenceSpecification31">
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="40924f8c-e981-45af-abb0-9debc0c0835b"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="477d4f54-34ef-4784-bb0b-0c151c08e478"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+                LastKnownName="AdatKezelő : Class"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="e9a6b1a4-4057-4d85-8925-2e710ea7480a"
+            name="Diagnosztika.designer : Class"
+            isActor="false"
+            lifelineDisplayName="Diagnosztika.designer : Class">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="ccb77bf5-c645-47e7-b731-0e1b0e02fea6"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9ce04b92-4d72-4a81-a3ba-1592fd91d7f7"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="fbdc6da5-dbdb-484b-9cee-c698a84fbdb5"
+            name="AdatKezelő : Class"
+            isActor="false"
+            lifelineDisplayName="AdatKezelő : Class">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="7671fbd8-e09a-4a8e-8610-d8197947594d"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="61425ad4-3e7b-4875-9b7c-7e12bebadb13"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="562094da-a89a-437c-ba8b-2b14c6f59335"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="490c4361-3c15-478f-ae7f-a290102b8dde"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="04c46209-0c26-44c4-ba64-becda9c8e58e"
+                LastKnownName="ExecutionOccurrenceSpecification21"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="73d3c323-29c9-42dd-8f71-b7a72036def2"
+                LastKnownName="ExecutionOccurrenceSpecification22"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="4639bf14-77f5-49f7-99aa-28b1beffa2de"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="40924f8c-e981-45af-abb0-9debc0c0835b"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="b9091771-c108-422b-bbae-69176c8daae6"
+            name="FileKezelő : Class"
+            isActor="false"
+            lifelineDisplayName="FileKezelő : Class">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ce8449c6-5e07-4edf-b7a4-8cf266117468"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5d6c0495-957c-402e-93fa-d635a5d1e9c8"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="836dbf39-8648-4362-9470-d4ce40829a9e"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="84b81726-29bb-4661-be4e-773d2cc11061"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="cd29121e-2f8a-4a54-a088-2b2a0338097a"
+            name="Koordináta : Class"
+            isActor="false"
+            lifelineDisplayName="Koordináta : Class">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="4a7c238e-3edd-43d3-abed-bb12c1f80360"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="42c759cd-7ab8-440d-872d-d403bb770b6c"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="dd66c41c-e24a-40b9-a3f3-db6a9a22e909"
+            name="Grafika : Class"
+            isActor="false"
+            lifelineDisplayName="Grafika : Class">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="e014135a-9226-4709-ab6e-a78c272fbd05"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="530b0820-3b28-413e-929b-5e06c3a5629a"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="6c246664-c2d1-472f-b9d5-c0d7391870c9"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a4888d10-5671-4744-bcaa-1ea9579201d0"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8b46f163-2738-4258-bc17-161186cc3b01"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="25e21410-e808-403d-b166-ed21536c4350"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="50643715-7000-4a40-ad7f-6ca3d7fa3c23"
+            name="FormAlap : Class"
+            isActor="false"
+            lifelineDisplayName="FormAlap : Class">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="41cd92ff-bfe5-415a-b731-935026ecd95b"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b737beea-4cc5-439d-805a-cfd725ff2303"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c126a5fc-dd8a-4aac-a4b8-5c10517a3907"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5208c152-e82e-4632-93c2-7da40af7fa33"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e879cce7-9dbc-40ca-9202-709790ae5096"
+                LastKnownName="MessageOccurrenceSpecification33"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6afdd7b9-3441-4a76-b670-6df5e298f863"
+                LastKnownName="MessageOccurrenceSpecification36"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="720ba889-94d4-4e68-bf66-3cdd35bf6e06"
+                LastKnownName="MessageOccurrenceSpecification37"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="15ee1d8e-aa77-4361-9a6c-f224e221c7c3"
+                LastKnownName="MessageOccurrenceSpecification40"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f4c0ac83-caf0-4283-a253-edeee11b9c37"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="cc57995d-2e8e-4dbe-a745-bff8d86e28c9"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="1203246f-aca9-4eb4-8e72-2d24f589e59a"
+            name="Berendezés Formok (1-15) : Class"
+            isActor="false"
+            lifelineDisplayName="Berendezés Formok (1-15) : Class">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="4404c197-8ac6-4d73-9cfc-d788a75d3cdf"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a331a92c-823b-4da8-afe3-853f4ef8ba2b"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="67cab350-d35c-4ce3-996c-61b53b4b8413"
+                LastKnownName="MessageOccurrenceSpecification41"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a4f99d14-5e5e-467d-a13a-405553a25143"
+                LastKnownName="MessageOccurrenceSpecification44"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="e68560cc-e082-4875-8137-024e975f7bd2"
+            name="Grafika újrarajzolása"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="41cd92ff-bfe5-415a-b731-935026ecd95b"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="772f0349-bd19-4146-a72e-ae1e7b96e582"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="153846f4-ebf0-4518-a206-435c6740b4dc"
+            name="&quot;csv&quot; adatok eltárolása"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ce8449c6-5e07-4edf-b7a4-8cf266117468"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="261718d3-302b-4c21-aae9-cbb018db401d"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="00f21f0b-3b41-4346-9cf3-e8b7898f7d00"
+            name="Return új grafika"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2226ac8a-4845-4621-be3c-9a81c6dabc29"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b737beea-4cc5-439d-805a-cfd725ff2303"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c943d453-b2f4-4683-bc94-84a11b9c22aa"
+            name="Return kész "
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="884336c1-e3df-463b-a24d-5a8979332c22"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5d6c0495-957c-402e-93fa-d635a5d1e9c8"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="7286f2be-06fd-44c2-8cee-fce042ebe832"
+            name="Feldolgozás parancs"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c126a5fc-dd8a-4aac-a4b8-5c10517a3907"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a98f5121-66a1-4b7e-b8af-1b16b737effb"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="73692607-29b2-43d5-9239-7a5f29d4ca05"
+            name="Return kész"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c9024a1b-c3ca-4acd-8db6-64e25437bbad"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5208c152-e82e-4632-93c2-7da40af7fa33"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="02b63e0a-3243-41b5-8bcf-e56745b5980e"
+            name="Adatlisták feltöltése"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e879cce7-9dbc-40ca-9202-709790ae5096"
+                LastKnownName="MessageOccurrenceSpecification33"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f06b0d60-07b2-40aa-99fa-cd4a68d3cbab"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4381bd1a-f102-484f-a4b8-350300f7312d"
+            name="Adatkérés a SQL felé"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="562094da-a89a-437c-ba8b-2b14c6f59335"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3055c928-e67c-4585-a9c6-4b3b703ad001"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="cf815d1b-876b-4065-a351-b2f6a07a8131"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="152cf60f-f762-4d22-807e-1feb63cb11ac"
+                LastKnownName="MessageOccurrenceSpecification35"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6afdd7b9-3441-4a76-b670-6df5e298f863"
+                LastKnownName="MessageOccurrenceSpecification36"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c02fa070-0f3e-49d6-8c1c-333ce103e1fa"
+            name="Koordináták letárolása"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8b46f163-2738-4258-bc17-161186cc3b01"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f6d8dff3-687f-4a9a-9dbf-12992aef771f"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="6b4d8db1-01fa-49a2-996c-ba3b775352d4"
+            name="Return adatok"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="aba568c7-69ff-4b69-9fd7-e4f64e583816"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="490c4361-3c15-478f-ae7f-a290102b8dde"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="960e0318-5797-4565-a78f-a0a724482bc8"
+            name="Megnyitás"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="720ba889-94d4-4e68-bf66-3cdd35bf6e06"
+                LastKnownName="MessageOccurrenceSpecification37"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d651248c-a0c4-4991-9835-67c40c7403b1"
+                LastKnownName="MessageOccurrenceSpecification38"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="7d80a7a8-bf6d-4137-82e7-f08cda68905e"
+            name="Return koordináta adatok"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ed6a6791-3c87-4ed3-8422-36ba81afc26d"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="25e21410-e808-403d-b166-ed21536c4350"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="d72796d1-e453-4e22-9c50-351cddfa7611"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bb8fd246-2d02-4434-8613-e9f29b9af0af"
+                LastKnownName="MessageOccurrenceSpecification39"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="15ee1d8e-aa77-4361-9a6c-f224e221c7c3"
+                LastKnownName="MessageOccurrenceSpecification40"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="0f2e28b2-ebbb-44f0-9766-a8cb3ce249b8"
+            name="Berendezések (1-15) adatainak lekérése"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="67cab350-d35c-4ce3-996c-61b53b4b8413"
+                LastKnownName="MessageOccurrenceSpecification41"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="499295cf-3d0c-4909-a935-4bd97ac2a2f2"
+                LastKnownName="MessageOccurrenceSpecification42"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="67592df1-d46a-4350-8013-ecddc829ba0a"
+            name="Return adatok"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="658d6f7b-601c-422e-a03a-7be6aa3aad72"
+                LastKnownName="MessageOccurrenceSpecification43"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a4f99d14-5e5e-467d-a13a-405553a25143"
+                LastKnownName="MessageOccurrenceSpecification44"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="87fd9cb7-87e4-411c-a390-0af2cdc6c0e1"
+            name="Tárolt adatok lekérése"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f4c0ac83-caf0-4283-a253-edeee11b9c37"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b8d2c47c-d252-4df6-ab56-c10bb90da80a"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="96fd6b5b-6e39-4157-b529-ff2d44888616"
+            name="Return adatokk"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8f351c27-9a6f-4514-8754-ef4e91ad3add"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cc57995d-2e8e-4dbe-a745-bff8d86e28c9"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="HQ40d_Diagnosztika_ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8e3972a2-8180-4945-ad3c-b98ef40ebf87"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fb169c1e-7a39-49e5-95b6-bc65ec28c417"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8cffda8c-32fc-4641-a959-773fc0705b9d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9acfab6b-e10b-4c43-803d-33ed37ff48d5"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="aa0d0f0d-1462-479d-a705-172de3131d4d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d8dc38bf-a401-4fa3-bd42-d6a436e7135f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="6f8dba25-c66b-4bb6-9a1f-185562f4b623"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c5a2288d-a29a-483c-aa95-64ec7bc64afc"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="87a0afb8-e20a-4704-8632-e39b78405d73"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5ddf554a-1084-45cf-ba7d-9d9a18295d52"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="658d0f70-7499-40f1-a908-f0fa125f58e6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="477d4f54-34ef-4784-bb0b-0c151c08e478"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="be8db178-e936-42b9-b296-8d7f20e8e80b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a7fcae79-ee65-4e24-8e99-34ef3356f147"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1b1a678e-4aaf-4d54-ba04-a9e25083b557"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9c7b7799-526b-417f-b7bb-30a260a47399"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ba8b9ab4-ee20-45b9-8226-fd83c422d8d0"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="383d0286-3d30-4e5e-8035-e78155c72acf"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
